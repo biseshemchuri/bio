@@ -1,0 +1,573 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Iansui&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Iansui&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidebar{
+     background: #393E46;
+    color: aliceblue;
+    height: 653x;
+    width: 20vw;
+}
+.main{
+    background: linear-gradient(135deg, #726bde, #e7c9e1);
+    height: 653x;
+    width: 80vw;
+    
+
+}
+ .sidebar nav{
+    padding: 20px;
+    box-shadow: 0 0 50px #0072ff;
+    box-shadow: 0 0 100px #0072ff;
+    box-shadow: 0 0 150px #0072ff;
+    box-shadow: 0 0 200px #437cc7;
+} 
+.sidebar nav li{
+    list-style: none;
+    padding: 45px;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+
+.container{
+    display: flex;
+    
+}
+.info{
+    background: linear-gradient(to bottom, #303030, #525151);
+    height: 65vh;
+    width: 70vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 50px #090909;
+    box-shadow: 0 0 100px #1a1a1b;
+    box-shadow: 0 0 150px #090909;
+    box-shadow: 0 0 600px #020202;
+}
+.divpic img{
+    height: 65vh;
+    box-shadow: 0 0 50px #0072ff;
+    box-shadow: 0 0 100px #0072ff;
+    box-shadow: 0 0 150px #0072ff;
+    box-shadow: 0 0 200px #437cc7;
+
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   font-family: "Dancing Script", cursive;
+}
+
+.hello{
+    font-size: 80px;
+    color: white;
+ 
+}
+
+.name{
+    font-size: 40px;
+    color: white;
+
+    
+}
+
+    
+   
+
+.about{
+    font-size: 40px;
+    color: white;
+    
+}
+
+
+
+.fancy-button button {
+  position: relative;
+  padding: 14px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(255, 75, 43, 0.5);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fancy-button button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+  transform: skewX(-20deg);
+  transition: all 0.6s ease;
+  z-index: 0;
+}
+
+.fancy-button button:hover::before {
+  left: 100%;
+}
+
+.fancy-button button:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 24px rgba(255, 75, 43, 0.6);
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+.fancy-button button:active {
+  transform: scale(0.96);
+}
+.form{
+  height: 800px;
+ width: 860px;
+  background-color: white;
+ margin: 70px auto;
+ display: flex;
+justify-content: space-around;
+padding-top: 70px;
+}
+/* Style only for my.html */
+.my-page .main {
+  height: 160vh; 
+}
+
+.jiko img {
+  margin-left: 20px;
+  width: 200px;   /* Adjust as needed */
+  height:   270px;   /* Keeps aspect ratio */
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  margin-top: 120px;
+  margin-right: 70px;
+  border-radius: 10px;
+  border: 2px solid #0ff;
+  box-shadow: 0 0 6px #0ff, 0 0 9px rgb(203, 91, 214), 0 0 11px rgb(202, 36, 172);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.jiko img:hover {
+  transform: scale(1.05); /* slightly zoom in */
+  box-shadow: 0 0 20px #0ff, 0 0 40px rgb(13, 14, 14), 0 0 60px #0ff;
+  cursor: pointer;
+}
+.intro-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px;
+}
+
+.jiko img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+
+ .move{
+  margin-left: 30px;
+font-family: "Open Sans", sans-serif;
+
+ }
+.sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+  padding: 15px 0;
+  transition: color 0.3s ease;
+  font-family: "Dancing Script", cursive;
+}
+
+.gradution{
+  margin-left: 20px;
+  width: 200px;   /* Adjust as needed */
+  height:   270px;   /* Keeps aspect ratio */
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+   gap: 80px;
+   
+ margin-left: 310px;
+  
+  border-radius: 10px;
+  border: 4px solid #0072ff;
+  box-shadow: 0 0 50px #0072ff;
+    box-shadow: 0 0 100px #0072ff;
+    box-shadow: 0 0 150px #0072ff;
+    box-shadow: 0 0 200px #437cc7;
+    margin-top: 120px;
+  margin-right: 70px;
+  border-radius: 10px;
+  border: 0px solid #0ff;
+  box-shadow: 0 0 100px #0ff, 0 0 50px rgb(203, 91, 214), 0 0 51px rgb(202, 36, 172);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+
+}
+.list p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 12px;
+}
+
+.hes{
+  margin-left: 20px;
+  width: 200px;   /* Adjust as needed */
+  height:   270px;   /* Keeps aspect ratio */
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+
+}
+.list {
+  margin-top: 30px;
+  margin-left: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 540px;
+    width: 90%;
+    text-align: left;
+   margin-bottom: 20px;
+}
+
+
+
+.list p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 12px;
+}
+/* from here exprince */
+.work{
+  width: 200px;   /* Adjust as needed */
+  height:   270px;   /* Keeps aspect ratio */
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+ margin-left: 330px;
+  border-radius: 10px;
+  border: 4px solid #0072ff;
+  box-shadow: 0 0 50px #0072ff;
+    box-shadow: 0 0 100px #0072ff;
+    box-shadow: 0 0 150px #0072ff;
+    box-shadow: 0 0 200px #437cc7;
+    margin-top: 50px;
+  margin-right: 70px;
+  border-radius: 50px;
+  border: 0px solid #0ff;
+  box-shadow: 0 0 100px #0ff, 0 0 50px rgb(203, 91, 214), 0 0 51px rgb(202, 36, 172);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+} 
+.big{
+   font-family: "Dancing Script", cursive;
+   font-size: 25px;
+   text-align: center;
+
+}
+
+.service{
+  width: 200px;   /* Adjust as needed */
+  height:   270px;   /* Keeps aspect ratio */
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+   gap: 80px;
+   
+ margin-left: 330px;
+  
+  border-radius: 10px;
+  border: 4px solid #0072ff;
+  box-shadow: 0 0 50px #0072ff;
+    box-shadow: 0 0 100px #0072ff;
+    box-shadow: 0 0 150px #0072ff;
+    box-shadow: 0 0 200px #437cc7;
+    margin-top: 50px;
+  margin-right: 70px;
+  border-radius: 50px;
+  border: 0px solid #0ff;
+  box-shadow: 0 0 100px #0ff, 0 0 50px rgb(203, 91, 214), 0 0 51px rgb(202, 36, 172);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+
+}
+.serv{
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+    margin-top: 100px;
+   
+}
+
+
+.experience-box {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    max-width: 1100px;
+    margin-left: 20px;
+    width: 93%;
+    text-align: left;
+}
+
+.experience-box h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.experience-box p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 12px;
+    text-indent: 1em;
+     font-family: "Dancing Script", cursive;
+
+}
+.syo{
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+
+}
+.syoimg{
+  width: 200px;   /* Adjust as needed */
+  height:   270px;   /* Keeps aspect ratio */
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+   gap: 60px;
+   
+ margin-left: 300px;
+  
+  border-radius: 10px;
+  border: 4px solid #0072ff;
+  box-shadow: 0 0 50px #0072ff;
+    box-shadow: 0 0 100px #0072ff;
+    box-shadow: 0 0 150px #0072ff;
+    box-shadow: 0 0 200px #437cc7;
+    margin-top: 50px;
+  margin-right: 70px;
+  border-radius: 50px;
+  border: 0px solid #0ff;
+  box-shadow: 0 0 100px #0ff, 0 0 50px rgb(203, 91, 214), 0 0 51px rgb(202, 36, 172);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+
+}
+.let{
+   background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    max-width: 1100px;
+    width: 93%;
+    text-align: left;
+    font-family: "Dancing Script", cursive;
+    margin-top: 20px;
+}
+
+.visi{
+   width: 200px;   /* Adjust as needed */
+  height:   270px;   /* Keeps aspect ratio */
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+   gap: 60px;
+   
+ margin-left: 300px;
+  
+  border-radius: 10px;
+  border: 4px solid #0072ff;
+  box-shadow: 0 0 50px #0072ff;
+    box-shadow: 0 0 100px #0072ff;
+    box-shadow: 0 0 150px #0072ff;
+    box-shadow: 0 0 200px #437cc7;
+    margin-top: 50px;
+  margin-right: 70px;
+  border-radius: 50px;
+  border: 0px solid #0ff;
+  box-shadow: 0 0 100px #0ff, 0 0 50px rgb(203, 91, 214), 0 0 51px rgb(202, 36, 172);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+
+}
+
+/* if i enable this down then it effects hole page...why ??? */
+/* .vision{
+   font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    margin-top: 30px;
+
+} */
+.vision{
+   font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    margin-top: 100px;
+
+} 
+.gakimg{
+  width: 200px;   /* Adjust as needed */
+  height:   270px;   /* Keeps aspect ratio */
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+   gap: 60px;
+   
+ margin-left: 300px;
+  
+  border-radius: 10px;
+  border: 4px solid #0072ff;
+  box-shadow: 0 0 50px #0072ff;
+    box-shadow: 0 0 100px #0072ff;
+    box-shadow: 0 0 150px #0072ff;
+    box-shadow: 0 0 200px #437cc7;
+    margin-top: 50px;
+  margin-right: 70px;
+  border-radius: 0px;
+  border: 0px solid #0ff;
+  box-shadow: 0 0 100px rgb(225, 38, 157), 0 0 200px rgb(203, 91, 214), 0 0 51px rgb(202, 36, 172);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+}
+.gako{
+  margin-top: 100px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    max-width: 1100px;
+    width: 93%;
+    text-align: left;
+    font-family: "Dancing Script", cursive;
+    margin-top: 20px;
+
+}
+.visionlist{
+  margin-top: 30px;
+  margin-left: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 540px;
+    width: 100%;
+    text-align: left;
+   margin-bottom: 20px;
+   
+
+}
+/* @media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    transform: none;
+    position: relative;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin: 50px auto;
+  }
+
+  .divpic img {
+    height: auto;
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .devinfo {
+    text-align: center;
+    padding: 20px;
+  }
+} */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 1rem;
+  }
+
+  .main {
+    padding: 1.5rem;
+  }
+
+  .intrest-and-photos ul {
+    flex-direction: column;
+  }
+
+  .intrest-and-photos li {
+    width: 100%;
+  }
+  .form {
+    flex-direction: column;
+    width: 95%;
+    padding: 20px;
+  }
+  .jiko img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .intro-text {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .sidebar nav ul li {
+    padding: 15px;
+    font-size: 20px;
+  }
+  .sidebar nav ul li a {
+    font-size: 22px;
+  }
+   .service, .syoimg, .gakimg {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+}
