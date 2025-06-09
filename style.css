@@ -488,7 +488,7 @@ font-family: "Open Sans", sans-serif;
    
 
 }
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
   .container {
     flex-direction: column;
   }
@@ -496,78 +496,77 @@ font-family: "Open Sans", sans-serif;
   .sidebar {
     width: 100%;
     height: auto;
-    transform: none;
     position: relative;
-  }
-
-  .main {
-    width: 100%;
-    height: auto;
-  }
-
-  .info {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    margin: 50px auto;
-  }
-
-  .divpic img {
-    height: auto;
-    width: 90%;
-    max-width: 300px;
-  }
-
-  .devinfo {
-    text-align: center;
-    padding: 20px;
-  }
-} */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 100%;
-    text-align: center;
-    padding: 1.5rem 1rem;
-  }
-
-  .main {
-    padding: 1.5rem;
-  }
-
-  .intrest-and-photos ul {
-    flex-direction: column;
-  }
-
-  .intrest-and-photos li {
-    width: 100%;
-  }
-  .form {
-    flex-direction: column;
-    width: 95%;
-    padding: 20px;
-  }
-  .jiko img {
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-  .intro-text {
+    flex-direction: row;
+    justify-content: space-around;
     padding: 10px;
+  }
+.div.main{
+  width: 900px;
+}
+  .sidebar a {
+    padding: 10px 15px;
     font-size: 16px;
   }
-  .sidebar nav ul li {
+
+  .main {
+    margin-left: 0;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main h1 {
+    font-size: 28px;
+  }
+
+  .main p,
+  .main li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebar a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .main {
     padding: 15px;
-    font-size: 20px;
   }
-  .sidebar nav ul li a {
-    font-size: 22px;
+
+  .main h1 {
+    font-size: 24px;
   }
-   .service, .syoimg, .gakimg {
-        flex-direction: column;
-        align-items: center;
-    }
- 
+
+  .main p,
+  .main li {
+    font-size: 14px;
+  }
+
+  .photo-grid img {
+    width: 100%;
+  }
 }
